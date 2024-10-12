@@ -123,7 +123,7 @@ nav{
     width: 88%;
     margin: 3% auto;
     border-radius: 25px;
-    background-image: url("/img/3.jpg");
+    background-image: url("./img/3.jpg");
     background-size: 100%; /* Initial background size */
     background-position: center;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ color: gold;
     width: 88%;
     margin: 3% auto;
     border-radius: 25px;
-    background-image: url("/img/5.jpg");
+    background-image: url("./img/5.jpg");
     background-size: 100%; /* Initial background size */
     background-position: center;
     background-repeat: no-repeat;
