@@ -174,7 +174,6 @@ color: gold;
 .container3{
     height:95vh;
     width: 100%;
-    border: 1px solid red;
 }
 
 .container3-inner{
@@ -221,7 +220,6 @@ color: gold;
 .container4{
     min-height:100vh;
     width: 100%;
-    border: 1px solid yellow;
 }
 
 .container4-inner{
@@ -235,4 +233,19 @@ color: gold;
     color: #242933;
     font-size: 45px;
     font-weight: 500;
+}
+
+.container4-inner2{
+    margin-top: 2rem;
+    height: 140vh;
+    width: 100%;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4-inner2-box{
+    height: 100%;
+    width: 31%;
+    border: 1px solid red;
 }
