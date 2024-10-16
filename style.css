@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+body{
+    background-color: rgb(245 247 250);
+}
+
 .container1{
     height: 100vh;
     width: 100%;
@@ -187,7 +191,6 @@ color: gold;
     background-repeat: no-repeat;
     transition: background-size 1s ease;
     position: relative;
-    border: 1px solid pink;
 }
 
 .container3-inner:hover{
@@ -237,15 +240,116 @@ color: gold;
 
 .container4-inner2{
     margin-top: 2rem;
-    height: 140vh;
+    height: 105vh;
     width: 100%;
-    border: 1px solid pink;
+    border: 1px solid rgb(0, 255, 64);
     display: flex;
     justify-content: space-between;
 }
 
 .container4-inner2-box{
     height: 100%;
-    width: 31%;
+    width: 32%;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-box1{
+    height: 47%;
+    width: 100%;
+    border-radius: 1.5rem;
+    background-image: url('./img/7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-size: 112%; /* Initial background size */
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 1s ease;
+    position: relative;
+    
+}
+
+.inner-box1:hover{
+    background-size: 120%;
+}
+
+.inner-box1 p{
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.inner-box1 h1{
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    font-size: 1.5rem;
+    left: 30px;
+}
+
+.inner-box2{
+    height: 47%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+.inner-inner-box2{
+    height: 75%;
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-image: url('./img/8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-size: 105%; /* Initial background size */
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 1s ease;
+    position: relative;
+}
+
+.inner-inner-box2:hover{
+    background-size: 110%;
+}
+
+.inner-box2 p{
+    font-size: 0.85rem;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.inner-box3{
+    height: 80%;
+    width: 100%;
+    background-image: url('./img/9.jpg');
+    background-size: cover;
+    border-radius: 1.2rem;
+    background-size: 100%; /* Initial background size */
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 1s ease;
+    position: relative;
+}
+
+.inner-box3:hover{
+    background-size: 104%;
+}
+
+.inner-box3 p{
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.inner-box3 h1{
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    font-size: 1.5rem;
+    left: 30px;
 }
